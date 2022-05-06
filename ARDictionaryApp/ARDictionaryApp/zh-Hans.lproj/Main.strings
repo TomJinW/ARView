@@ -1,0 +1,21 @@
+
+/* Class = "UIButton"; normalTitle = "相册"; ObjectID = "F2N-88-xIh"; */
+"F2N-88-xIh.normalTitle" = "Album";
+
+/* Class = "UINavigationItem"; title = "AR"; ObjectID = "I8h-v0-ZP3"; */
+"I8h-v0-ZP3.title" = "AR";
+
+/* Class = "UINavigationItem"; title = "选择模型"; ObjectID = "LkA-c9-7XN"; */
+"LkA-c9-7XN.title" = "Select Model";
+
+/* Class = "UILabel"; text = "正在搜索平面，请移动手机"; ObjectID = "Rz8-d3-jSh"; */
+"Rz8-d3-jSh.text" = "Searching";
+
+/* Class = "UIButton"; normalTitle = "更换模型"; ObjectID = "UFk-Oc-3i5"; */
+"UFk-Oc-3i5.normalTitle" = "Change";
+
+/* Class = "UIButton"; normalTitle = "重置"; ObjectID = "nTb-Lz-ydp"; */
+"nTb-Lz-ydp.normalTitle" = "Reset";
+
+/* Class = "UILabel"; text = "N"; ObjectID = "uIX-T6-83O"; */
+"uIX-T6-83O.text" = "N";

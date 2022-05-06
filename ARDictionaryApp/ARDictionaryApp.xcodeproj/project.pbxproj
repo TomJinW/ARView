@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E221DF8D23A771D700A04080 /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E221DF8C23A771D700A04080 /* ModelViewController.swift */; };
+		E221DF8F23A7725400A04080 /* ModelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E221DF8E23A7725400A04080 /* ModelViewCell.swift */; };
+		E221DF9D23A7837200A04080 /* Shared.swift in Sources */ = {isa = PBXBuildFile; fileRef = E221DF9A23A7833600A04080 /* Shared.swift */; };
+		E221DF9E23A7837400A04080 /* ConfigLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E221DF9B23A7833600A04080 /* ConfigLoader.swift */; };
+		E221DFA223A783C700A04080 /* ARViewControllerS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E221DFA123A783C700A04080 /* ARViewControllerS.swift */; };
+		E221DFA423A79C5900A04080 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E221DFA323A79C5900A04080 /* Protocols.swift */; };
+		E221DFA623A7A9BB00A04080 /* Bundle in Resources */ = {isa = PBXBuildFile; fileRef = E221DFA523A7A9BB00A04080 /* Bundle */; };
+		E23F704D239FC78000848644 /* ARDictionaryLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5AAE4F121E48F85007C8B46 /* ARDictionaryLib.framework */; };
+		E23F704E239FC78000848644 /* ARDictionaryLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F5AAE4F121E48F85007C8B46 /* ARDictionaryLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F503A9D521DE1420008E8C6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F503A9D421DE1420008E8C6F /* Assets.xcassets */; };
+		F5E6D5AE21D1E598001D8C59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E6D5AD21D1E598001D8C59 /* AppDelegate.m */; };
+		F5E6D5B021D1E598001D8C59 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E6D5AF21D1E598001D8C59 /* art.scnassets */; };
+		F5E6D5B621D1E598001D8C59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E6D5B421D1E598001D8C59 /* Main.storyboard */; };
+		F5E6D5BB21D1E599001D8C59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E6D5B921D1E599001D8C59 /* LaunchScreen.storyboard */; };
+		F5E6D5BE21D1E599001D8C59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5E6D5BD21D1E599001D8C59 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E23F704F239FC78000848644 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E23F704E239FC78000848644 /* ARDictionaryLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E221DF8923A7719700A04080 /* ARDictionaryApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARDictionaryApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		E221DF8C23A771D700A04080 /* ModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		E221DF8E23A7725400A04080 /* ModelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewCell.swift; sourceTree = "<group>"; };
+		E221DF9A23A7833600A04080 /* Shared.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared.swift; sourceTree = "<group>"; };
+		E221DF9B23A7833600A04080 /* ConfigLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigLoader.swift; sourceTree = "<group>"; };
+		E221DFA123A783C700A04080 /* ARViewControllerS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewControllerS.swift; sourceTree = "<group>"; };
+		E221DFA323A79C5900A04080 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		E221DFA523A7A9BB00A04080 /* Bundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Bundle; sourceTree = SOURCE_ROOT; };
+		E221DFA723A7B7AB00A04080 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		E221DFA823A7B7AB00A04080 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E221DFA923A7B7B600A04080 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		E221DFAA23A7B7B800A04080 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		F503A9D421DE1420008E8C6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F531382D21E48EB5000CB134 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = ../ARDictionaryLib/Frameworks/Zip.framework; sourceTree = "<group>"; };
+		F531382F21E48EB8000CB134 /* easyar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = easyar.framework; path = ../ImageRecognizer/Frameworks/easyar.framework; sourceTree = "<group>"; };
+		F5AAE4F121E48F85007C8B46 /* ARDictionaryLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ARDictionaryLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5AAE4F321E48F85007C8B46 /* ImageRecognizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ImageRecognizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E6D5A921D1E598001D8C59 /* AR 拍照.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AR 拍照.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E6D5AC21D1E598001D8C59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5E6D5AD21D1E598001D8C59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5E6D5AF21D1E598001D8C59 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F5E6D5BC21D1E599001D8C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E6D5BD21D1E599001D8C59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5E6D5C721D1E599001D8C59 /* ARDictionaryAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARDictionaryAppTests.m; sourceTree = "<group>"; };
+		F5E6D5C921D1E599001D8C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5E6D5D221D1E599001D8C59 /* ARDictionaryAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARDictionaryAppUITests.m; sourceTree = "<group>"; };
+		F5E6D5D421D1E599001D8C59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E6D5A621D1E598001D8C59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23F704D239FC78000848644 /* ARDictionaryLib.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E221DF9C23A7833600A04080 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E221DF9A23A7833600A04080 /* Shared.swift */,
+				E221DF9B23A7833600A04080 /* ConfigLoader.swift */,
+				E221DFA323A79C5900A04080 /* Protocols.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		F5B8BE4F21D390A600E39AC6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E221DF8923A7719700A04080 /* ARDictionaryApp-Bridging-Header.h */,
+				E221DF8C23A771D700A04080 /* ModelViewController.swift */,
+				E221DF8E23A7725400A04080 /* ModelViewCell.swift */,
+				E221DFA123A783C700A04080 /* ARViewControllerS.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F5E6D5A021D1E598001D8C59 = {
+			isa = PBXGroup;
+			children = (
+				F5E6D5AB21D1E598001D8C59 /* ARDictionaryApp */,
+				F5E6D5C621D1E599001D8C59 /* ARDictionaryAppTests */,
+				F5E6D5D121D1E599001D8C59 /* ARDictionaryAppUITests */,
+				F5E6D5AA21D1E598001D8C59 /* Products */,
+				F5E6D65721D1E880001D8C59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E6D5AA21D1E598001D8C59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E6D5A921D1E598001D8C59 /* AR 拍照.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E6D5AB21D1E598001D8C59 /* ARDictionaryApp */ = {
+			isa = PBXGroup;
+			children = (
+				E221DFA523A7A9BB00A04080 /* Bundle */,
+				E221DF9C23A7833600A04080 /* Common */,
+				F5B8BE4F21D390A600E39AC6 /* ViewControllers */,
+				F503A9D421DE1420008E8C6F /* Assets.xcassets */,
+				F5E6D5AC21D1E598001D8C59 /* AppDelegate.h */,
+				F5E6D5AD21D1E598001D8C59 /* AppDelegate.m */,
+				F5E6D5AF21D1E598001D8C59 /* art.scnassets */,
+				F5E6D5B421D1E598001D8C59 /* Main.storyboard */,
+				F5E6D5B921D1E599001D8C59 /* LaunchScreen.storyboard */,
+				F5E6D5BC21D1E599001D8C59 /* Info.plist */,
+				F5E6D5BD21D1E599001D8C59 /* main.m */,
+			);
+			path = ARDictionaryApp;
+			sourceTree = "<group>";
+		};
+		F5E6D5C621D1E599001D8C59 /* ARDictionaryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E6D5C721D1E599001D8C59 /* ARDictionaryAppTests.m */,
+				F5E6D5C921D1E599001D8C59 /* Info.plist */,
+			);
+			path = ARDictionaryAppTests;
+			sourceTree = "<group>";
+		};
+		F5E6D5D121D1E599001D8C59 /* ARDictionaryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5E6D5D221D1E599001D8C59 /* ARDictionaryAppUITests.m */,
+				F5E6D5D421D1E599001D8C59 /* Info.plist */,
+			);
+			path = ARDictionaryAppUITests;
+			sourceTree = "<group>";
+		};
+		F5E6D65721D1E880001D8C59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5AAE4F121E48F85007C8B46 /* ARDictionaryLib.framework */,
+				F5AAE4F321E48F85007C8B46 /* ImageRecognizer.framework */,
+				F531382F21E48EB8000CB134 /* easyar.framework */,
+				F531382D21E48EB5000CB134 /* Zip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E6D5A821D1E598001D8C59 /* ARDictionaryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E6D5D721D1E599001D8C59 /* Build configuration list for PBXNativeTarget "ARDictionaryApp" */;
+			buildPhases = (
+				F5E6D5A521D1E598001D8C59 /* Sources */,
+				F5E6D5A621D1E598001D8C59 /* Frameworks */,
+				F5E6D5A721D1E598001D8C59 /* Resources */,
+				E23F704F239FC78000848644 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARDictionaryApp;
+			productName = ARDictionaryApp;
+			productReference = F5E6D5A921D1E598001D8C59 /* AR 拍照.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E6D5A121D1E598001D8C59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Dgene;
+				TargetAttributes = {
+					F5E6D5A821D1E598001D8C59 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = F5E6D5A421D1E598001D8C59 /* Build configuration list for PBXProject "ARDictionaryApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = F5E6D5A021D1E598001D8C59;
+			productRefGroup = F5E6D5AA21D1E598001D8C59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E6D5A821D1E598001D8C59 /* ARDictionaryApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5E6D5A721D1E598001D8C59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E221DFA623A7A9BB00A04080 /* Bundle in Resources */,
+				F5E6D5B021D1E598001D8C59 /* art.scnassets in Resources */,
+				F5E6D5BB21D1E599001D8C59 /* LaunchScreen.storyboard in Resources */,
+				F503A9D521DE1420008E8C6F /* Assets.xcassets in Resources */,
+				F5E6D5B621D1E598001D8C59 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E6D5A521D1E598001D8C59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E221DF9D23A7837200A04080 /* Shared.swift in Sources */,
+				F5E6D5BE21D1E599001D8C59 /* main.m in Sources */,
+				F5E6D5AE21D1E598001D8C59 /* AppDelegate.m in Sources */,
+				E221DF8D23A771D700A04080 /* ModelViewController.swift in Sources */,
+				E221DF8F23A7725400A04080 /* ModelViewCell.swift in Sources */,
+				E221DF9E23A7837400A04080 /* ConfigLoader.swift in Sources */,
+				E221DFA223A783C700A04080 /* ARViewControllerS.swift in Sources */,
+				E221DFA423A79C5900A04080 /* Protocols.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5E6D5B421D1E598001D8C59 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E221DFA723A7B7AB00A04080 /* zh-Hans */,
+				E221DFAA23A7B7B800A04080 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5E6D5B921D1E599001D8C59 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E221DFA823A7B7AB00A04080 /* zh-Hans */,
+				E221DFA923A7B7B600A04080 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5E6D5D521D1E599001D8C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5E6D5D621D1E599001D8C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5E6D5D821D1E599001D8C59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU574X42G2;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ARDictionaryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgene.ARDictionaryApp;
+				PRODUCT_NAME = "AR 拍照";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARDictionaryApp/ViewControllers/ARDictionaryApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Debug;
+		};
+		F5E6D5D921D1E599001D8C59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HU574X42G2;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = ARDictionaryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dgene.ARDictionaryApp;
+				PRODUCT_NAME = "AR 拍照";
+				SWIFT_OBJC_BRIDGING_HEADER = "ARDictionaryApp/ViewControllers/ARDictionaryApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E6D5A421D1E598001D8C59 /* Build configuration list for PBXProject "ARDictionaryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E6D5D521D1E599001D8C59 /* Debug */,
+				F5E6D5D621D1E599001D8C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E6D5D721D1E599001D8C59 /* Build configuration list for PBXNativeTarget "ARDictionaryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E6D5D821D1E599001D8C59 /* Debug */,
+				F5E6D5D921D1E599001D8C59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5E6D5A121D1E598001D8C59 /* Project object */;
+}
